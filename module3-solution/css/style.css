@@ -1,3 +1,73 @@
 *{
-  border-box: box-sizing;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  color: #333;
+  background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+  height: 100%;
+}
+.navbar-brand {
+  padding-top: 15px;
+}
+.navbar-brand h1 { 
+  color: #45318b;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+
+#nav-list{
+  margin: 0 auto;
+  width: 100%;
+  padding: 0;
+}
+#nav-list li{
+text-align: center;
+border-bottom: 2px solid #f6b319;
+}
+#nav-list > li > a{
+color: #fff;
+
+}
+
+#menu-section h1{
+  margin: 10px auto 30px;
+  font-weight: bold;
+}
+#menu-section > div{
+  background-color: #45318b;
+  color: #fff;
+  margin: 30px auto;
+  padding: 20px;
+}
+#menu-section > div > h4{
+  margin: 0 auto 10px;
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: bold;
+  line-height: .75;
+}
+
+@media (max-width:767px) {
+  #collapsable-nav{
+    background-color: #45318b;
+    border: none;
+    padding: 0;
+  }
 }
